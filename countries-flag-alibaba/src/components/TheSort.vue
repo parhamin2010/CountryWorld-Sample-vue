@@ -52,7 +52,14 @@
   }
 
   .sort-select{
-    text-align: right !important;
+    margin-top: 10px;
   }
+  @media (min-width: 1024px) {
+    .sort-select{
+      margin-top: 10px;
+      text-align: right !important;
+    }
+  }
+
   </style>
   
